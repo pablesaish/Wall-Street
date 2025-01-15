@@ -196,3 +196,6 @@ body {
     font-size: 1rem;
     gap: 5px;
 }
+.google-login-button:active {
+  box-shadow: 4px 4px;
+}
