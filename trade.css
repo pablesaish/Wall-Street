@@ -1,0 +1,322 @@
+.ibm-plex-mono-thin {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.ibm-plex-mono-light {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+/* -------------------------------------------------------------------------------------- */
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.items-center {
+    align-items: center;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+.mb-1 {
+    margin: 1px;
+}
+.mb-4 {
+    margin: 4px;
+}
+.bgcolor-white {
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #fef9c3;
+}
+body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------------------- */
+.stock-content {
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    background-color: white;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    box-shadow: 8px 8px;
+}
+.header {
+    width: 1000px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.header i{
+    background-color: white;
+}
+.types select {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 1rem;
+}
+/* -------------------------------------------------------- */
+.new-to-trading {
+    height: 30px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+    color: rgb(56, 53, 53);
+}
+.new-to-trading p, .new-to-trading a, .new-to-trading span {
+    font-size: 11px;
+    font-weight: 600;
+    background-color: white;
+}
+.new-to-trading a {
+    color: blue;
+    font-size: 11px;
+
+}
+.new-to-trading a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------- */
+.individual {
+    height: 40px;
+    max-width: 993px;
+    background-color: white;
+}
+.individual select {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-sizing: none;
+    padding: 0;
+    width: 990px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-bottom: 2px solid rgb(56, 53, 53);
+}
+.individual select:focus {
+    border-bottom: 3px solid #4caf50;
+}
+.balance {
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-right: 10px;
+    background-color: white;
+}
+.cash {
+    margin-left: 150px;
+    margin-bottom: 7px;
+    background-color: white;
+}
+.balance span {
+    color: rgb(56, 53, 53);
+    background-color: white;
+}
+.balance p {
+    color: black;
+    background-color: white;
+    font-weight: 500;
+}
+.show-more {
+    color: blue;
+    background-color: white;
+    border: none;
+    margin-left: 95px;
+    font-size: 0.85rem;
+    margin-bottom: 4px rgb(56, 53, 53);
+}
+.show-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------------*/
+.search {
+    width: 993px;
+    height: 50px;
+    background-color: white;
+}
+.search input {
+    height: 100%;
+    width: 950px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #404040;
+    margin-bottom: 50px;
+}
+.search i{
+    background-color: white;
+}
+.search input:focus {
+    border-bottom: 3px solid #4caf50;
+}
+.stock-info {
+    background-color: white;
+}
+.stock-info h3 {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 9px;
+    font-size: 1.5rem;
+    background-color: white;
+}
+.stock-info .time {
+    color: rgb(56, 53, 53);
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    background-color: white;
+}
+/* ---------------------------------------------------------------------------------- */
+.selection{
+    margin-bottom: 20px;
+}
+.quantity {
+    margin-bottom: 10px;
+}
+.selection, .quantity {
+    display: flex;
+    justify-content: center;
+}
+.buy-sell button {
+    /* width: 200px; */
+    background-color: transparent;
+    outline: none;
+}
+.buy-sell button:focus {
+    background-color: green;
+}
+.quantity {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #404040;
+    color: black;
+    /* width: auto; */
+    padding: 3px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+.more-trade p{
+    font-size: 1rem;
+}
+.preview button{
+    font-size: 1.6rem;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 6px 6px;
+}
+.preview button:active {
+    box-shadow: 4px 4px;
+}

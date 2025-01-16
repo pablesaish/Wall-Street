@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="trade.css">
+</head>
+
+<body>
+
+    <div class="flex justify-center items-center">
+        <div class="stock-content" style="max-width: 1000px;">
+            <!-- Header -->
+            <div class="flex justify-center">
+                <div class="header">
+                    <div class="close" style="background-color: transparent;">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="types">
+                        <select name="" id="" class="ibm-plex-mono-semibold">
+                            <option value="Stocks/EFTs">Stocks/EFTs</option>
+                        </select>
+                    </div>
+                    <div class="msg" style="background-color: transparent;">
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- New to trading banner -->
+            <div class="flex justify-center">
+                <div class="new-to-trading flex justify-center items-center ibm-plex-mono-regular">
+                    <p>New to trading? </p><span>Watch this <a>video</a></span>
+                </div>
+            </div>
+            <!-- Account Info -->
+
+            <div>
+                <div class="flex">
+                    <div class="individual flex items-center">
+                        <select name="" id="" class="ibm-plex-mono-semibold">
+                            <option value="individual-tod">INDIVIDUAL-TOD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bgcolor-white">
+                    <div class="balance flex ibm-plex-mono-medium">
+                        <span>Balances</span>
+                        <div class="cash">
+                            <span>Cash Available to trade</span>
+                            <p>$96.56</p>
+                        </div>
+                    </div>
+                    <button class="show-more ibm-plex-mono-medium">Show More</button>
+                </div>
+            </div>
+
+            <!-- Stock Info -->
+            <div class="stock-info">
+                <div class="relative search">
+                    <input type="text" value="" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h3 class="flex items-center ibm-plex-mono-semibold">Walt Disney</h3>
+                <div class="mb-4" style="background-color: white;">
+                    <div class="flex justify-start mb-1 ibm-plex-mono-medium" style="background-color: white;">
+                        <span style="margin-left: 100px; background-color: white;">Last</span>
+                        <span style="margin-left: 150px; background-color: white;">$108.54 x 100 (FINY)</span>
+                    </div>
+                    <div class="ibm-plex-mono-medium flex justify-start"
+                        style="color: green;font-weight:700; margin-left: 100px; background-color: white;">+$0.52
+                        (+0.48%)</div>
+                    <div class="flex justify-start mb-1 ibm-plex-mono-medium" style="background-color: white;">
+                        <span style="margin-left: 100px; background-color: white;">BID</span>
+                        <span style="margin-left: 160px; background-color: white;">$108.55 x 2 (IEXG)</span>
+                    </div>
+                    <div class="flex justify-start mb-1 ibm-plex-mono-medium" style="background-color: white;">
+                        <span style="margin-left: 100px; background-color: white;">ASK</span>
+                        <span style="margin-left: 160px; background-color: white;">$108.56 x 12 (EDGX)</span>
+                    </div>
+                    <div class="time" style="margin-left: 100px;">DELAYED AS OF 1:32:15PM ET 01/15...</div>
+                    <div class="selection flex justify-center items-center ibm-plex-mono-medium"
+                        style="background-color: white;">
+                        <span style="background-color: white;">Action</span>
+                        <div class="buy-sell flex ibm-plex-mono-medium"
+                            style="margin-left: 20px; background-color: white;">
+                            <input type="radio" name="buy-or-sell" id="sell">
+                            <label for="sell" style="background-color: white;">Sell</label>
+                            <input type="radio" name="buy-or-sell" id="buy"
+                                style="margin-left: 10px; background-color: white;">
+                            <label for="buy" style="background-color: white;">Buy</label>
+                        </div>
+                    </div>
+                    <div class="selection flex justify-center items-center ibm-plex-mono-medium"
+                        style="background-color: white;">
+                        <span style="background-color: white;">Quality Type</span>
+                        <div class="buy-sell flex ibm-plex-mono-medium"
+                            style="margin-left: 20px; background-color: white;">
+                            <input type="radio" name="shares-or-dollars" id="shares">
+                            <label for="shares" style="background-color: white;">Shares</label>
+                            <input type="radio" name="shares-or-dollars" id="dollars" style="margin-left: 10px;">
+                            <label for="dollars" style="background-color: white;">Dollars</label>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center ibm-plex-mono-medium" style="background-color: white;">
+                        <span style="background-color: white;">Quantity</span>
+                        <input type="number" placeholder="Enter Shares" class="quantity ibm-plex-mono-medium"
+                            style="margin-left: 20px;">
+                    </div>
+
+                    <div class="selection flex justify-center items-center ibm-plex-mono-medium"
+                        style="background-color: white;">
+                        <span style="background-color: white;">Order Type</span>
+                        <div class="buy-sell flex ibm-plex-mono-medium"
+                            style="margin-left: 20px; background-color: white;">
+                            <input type="radio" name="market-or-limit" id="market">
+                            <label for="market" style="background-color: white;">Market</label>
+                            <input type="radio" name="market-or-limit" id="limit" style="margin-left: 10px;">
+                            <label for="limit" style="background-color: white;">Limit</label>
+                        </div>
+                    </div>
+                    <div class="more-trade flex justify-center ibm-plex-mono-medium" style="background-color: white;">
+                        <p style="background-color: white;">More trade Selections</p>
+                    </div>
+                    <div class="preview flex justify-center items-center" style="background-color: white;">
+                        <button class="ibm-plex-mono-bold">Preview Order</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
